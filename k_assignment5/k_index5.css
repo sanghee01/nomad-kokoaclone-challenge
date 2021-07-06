@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  width: 420px;
+  padding: 50px 30px 50px 30px;
+  border: rgb(36, 165, 100) solid 5px;
+}
+.topBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.topBar__exit {
+  width: 35%;
+  font-size: 35px;
+}
+.topBar__title {
+  width: 65%;
+  font-size: 16px;
+}
+
+.statusBar {
+  display: flex;
+}
+.statusBar__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  background-color: orange;
+  color: white;
+  font-size: 40px;
+  border: black solid 3px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.statusBar__text {
+  display: flex;
+  flex-direction: column;
+}
+.statusBar__title {
+  font-size: 37px;
+  font-weight: 800;
+}
+.statusBar__people {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.btn__play {
+  padding: 15px 55px;
+  border: black solid 3px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: black solid 7px;
+}
+.btn__play i {
+  margin-right: 10px;
+}
+.btn__etc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 71px;
+  border: black solid 3px;
+  border-bottom: black solid 7px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  margin-top: 55px;
+}
+.list__photo {
+  width: 60px;
+  height: 60px;
+  border: black solid 3px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.list__photo:first-child {
+  background-color: red;
+}
+.list__photo:nth-child(2) {
+  background-color: pink;
+}
+.list__photo:nth-child(3) {
+  background-color: blue;
+}
+.list__photo:last-child {
+  background-color: green;
+}
+
+.list__text {
+  display: flex;
+  flex-direction: column;
+}
+.list__title {
+  font-size: 22px;
+  font-weight: 800;
+}
+.list__people {
+  margin-top: 5px;
+  font-size: 15px;
+  opacity: 0.8;
+}

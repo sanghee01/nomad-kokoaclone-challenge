@@ -1,0 +1,74 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__icons {
+  display: flex;
+}
+.screen-header__icons span {
+  margin: 0px 10px;
+}
+
+#friends-display {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(121, 121, 121, 0.05);
+  padding: 8px 0px;
+}
+
+.user-component__column:first-child {
+  display: flex;
+}
+.user-component__text {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin: 20px 10px;
+}
+
+.friedns-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__avatar—sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 25px;
+  margin: 0px 10px;
+  margin-top: 10px;
+}
+.user-component__title {
+  font-size: 20px;
+}
+.user-component:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component__time {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__dot {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  margin: 5px 0px;
+}
